@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    @* Template Head files*@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src=@Url.Content("~/Content/MyTemplate/")assets/js/ie/html5shiv.js"></script>
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/")assets/css/main.css" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/")assets/css/ie9.css" />
+    <link rel="stylesheet" href="@Url.Content("~/Content/MyTemplate/")assets/css/ie8.css" />
+    <script src="@Url.Content("~/Content/MyTemplate/")assets/js/jquery.min.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")assets/js/skel.min.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")assets/js/util.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")assets/js/ie/respond.min.js"></script>
+    <script src="@Url.Content("~/Content/MyTemplate/")assets/js/main.js"></script>
+</head>
+<body>
+    <header id="header">
+        <h1>@Html.ActionLink("Rate My Speaker", "Index", "Home")</h1>
+        <nav class="links">
+            <ul>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Conferences", "Conferences", "Home")</li>
+                <li>@Html.ActionLink("Speakers", "Speakers", "Home")</li>
+                <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+
+            </ul>
+        </nav>
+        <nav class="main">
+            <ul>
+                <li class="search">
+                    <a class="fa-search" href="#search">Search</a>
+                    <form id="search" method="get" action="#">
+                        <input type="text" name="query" placeholder="Search" />
+                    </form>
+                </li>
+                <li class="menu">
+                    <a class="fa-bars" href="#menu">Menu</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section id="menu">
+
+        <!-- Search -->
+        <section>
+            <form class="search" method="get" action="#">
+                <input type="text" name="query" placeholder="Search" />
+            </form>
+        </section>
+
+        <!-- Links -->
+        <section>
+            <ul class="links">
+                <li>
+                    <a href="#">
+                        <h3>Lorem ipsum</h3>
+                        <p>Feugiat tempus veroeros dolor</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Dolor sit amet</h3>
+                        <p>Sed vitae justo condimentum</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Feugiat veroeros</h3>
+                        <p>Phasellus sed ultricies mi congue</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <h3>Etiam sed consequat</h3>
+                        <p>Porta lectus amet ultricies</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Actions -->
+        <section>
+            
+                <button class="button big fit">
+                @Html.ActionLink("Log In", "Login", "Account")
+                </button>
+         
+        </section>
+        
+    </section>
+    <div>
+        @RenderBody()
+        @RenderSection("scripts", required: false)
+        
+    </div>
+</body>
+</html>
