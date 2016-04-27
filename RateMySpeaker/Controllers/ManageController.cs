@@ -101,6 +101,7 @@ namespace RateMySpeaker.Controllers
 
         //
         // GET: /Manage/AddPhoneNumber
+        
         public ActionResult AddPhoneNumber()
         {
             return View();
@@ -213,6 +214,7 @@ namespace RateMySpeaker.Controllers
 
         //
         // GET: /Manage/ChangePassword
+        [Authorize]
         public ActionResult ChangePassword()
         {
             return View();

@@ -27,6 +27,7 @@
                 <li>@Html.ActionLink("Conferences", "Conferences", "Home")</li>
                 <li>@Html.ActionLink("Speakers", "Speakers", "Home")</li>
                 <li>@Html.ActionLink("Contact Us", "Contact", "Home")</li>
+                <li>@User.Identity.Name</li>
 
             </ul>
         </nav>
@@ -57,28 +58,16 @@
         <section>
             <ul class="links">
                 <li>
-                    <a href="#">
-                        <h3>Lorem ipsum</h3>
-                        <p>Feugiat tempus veroeros dolor</p>
-                    </a>
+                    @Html.ActionLink("Speakers I've Rated", "Index", "Speakers")
                 </li>
                 <li>
-                    <a href="#">
-                        <h3>Dolor sit amet</h3>
-                        <p>Sed vitae justo condimentum</p>
-                    </a>
+                    @Html.ActionLink("Change Password", "ChangePassword", "Manage")
                 </li>
                 <li>
-                    <a href="#">
-                        <h3>Feugiat veroeros</h3>
-                        <p>Phasellus sed ultricies mi congue</p>
-                    </a>
+                    @Html.ActionLink("Add Account Information", "AddPhoneNumber", "Manage")
                 </li>
                 <li>
-                    <a href="#">
-                        <h3>Etiam sed consequat</h3>
-                        <p>Porta lectus amet ultricies</p>
-                    </a>
+
                 </li>
             </ul>
         </section>

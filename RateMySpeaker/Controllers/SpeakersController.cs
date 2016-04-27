@@ -15,6 +15,7 @@ namespace RateMySpeaker.Controllers
         private SpeakerDBContext db = new SpeakerDBContext();
 
         // GET: Speakers
+        
         public ActionResult Index()
         {
             return View(db.Speakers.ToList());
@@ -60,6 +61,7 @@ namespace RateMySpeaker.Controllers
         }
 
         // GET: Speakers/Edit/5
+     
         public ActionResult Edit(int? id)
         {
             if (id == null)

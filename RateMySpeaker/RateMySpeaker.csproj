@@ -260,8 +260,13 @@
     <Content Include="Content\MyTemplate\images\alexandra-wilson.png" />
     <Content Include="Content\MyTemplate\images\avatar.jpg" />
     <Content Include="Content\MyTemplate\images\blogher.PNG" />
+    <Content Include="Content\MyTemplate\images\charles_huang.jpg" />
     <Content Include="Content\MyTemplate\images\cob.jpg" />
+    <Content Include="Content\MyTemplate\images\courtney_stanton.jpg" />
+    <Content Include="Content\MyTemplate\images\def_con_whiskey_shot.jpg" />
+    <Content Include="Content\MyTemplate\images\dennis_crowley.jpg" />
     <Content Include="Content\MyTemplate\images\dent.PNG" />
+    <Content Include="Content\MyTemplate\images\dick_costolo.jpg" />
     <Content Include="Content\MyTemplate\images\droidcon.PNG" />
     <Content Include="Content\MyTemplate\images\flower-avatar.png" />
     <Content Include="Content\MyTemplate\images\icon.PNG" />
@@ -270,11 +275,14 @@
     <Content Include="Content\MyTemplate\images\iodc.PNG" />
     <Content Include="Content\MyTemplate\images\jeff-taylor.png" />
     <Content Include="Content\MyTemplate\images\jeff_weiner.jpg" />
+    <Content Include="Content\MyTemplate\images\jonah_p.jpg" />
+    <Content Include="Content\MyTemplate\images\kelly.jpg" />
     <Content Include="Content\MyTemplate\images\laptop-avatar.png" />
     <Content Include="Content\MyTemplate\images\lightbulb.png" />
     <Content Include="Content\MyTemplate\images\logo.jpg" />
     <Content Include="Content\MyTemplate\images\marissa_mayer.jpg" />
     <Content Include="Content\MyTemplate\images\megan.PNG" />
+    <Content Include="Content\MyTemplate\images\mm_great_place.jpe" />
     <Content Include="Content\MyTemplate\images\paige.PNG" />
     <Content Include="Content\MyTemplate\images\pic01.jpg" />
     <Content Include="Content\MyTemplate\images\pic02.jpg" />
@@ -344,6 +352,7 @@
     <Content Include="bin\roslyn\Microsoft.CSharp.Core.targets" />
     <Content Include="bin\roslyn\Microsoft.VisualBasic.Core.targets" />
     <Content Include="bin\roslyn\VBCSCompiler.exe.config" />
+    <Content Include="Content\MyTemplate\images\Thumbs.db" />
     <None Include="Properties\PublishProfiles\RateMySpeaker.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
